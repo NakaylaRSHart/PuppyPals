@@ -5,4 +5,51 @@
   text-align: center;
 }
 
+body{
+  /* background-color: darkslategray; */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-uqWANkLi4Bt_bfTuiRITTd4ETCaxWo1ePA&s);
+}
 
+p{
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+p:hover{
+  color: orangered;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+div{
+  color: darkcyan;
+  font-size: larger;
+  padding: 20px;
+}
+
+h1{
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  border: dotted dimgrey;
+  border-radius: 20px;
+}
+
+h2{
+  border: solid darkcyan;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+#puppyClicked{
+  border: solid black;
+  border-radius: 20px;
+  margin: 30px;
+  background-color: black;
+}
